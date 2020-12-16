@@ -1,0 +1,384 @@
+body {
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+#logo__panel {
+  margin-left: 30%;
+  width: auto;
+  height: 150px; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+.nav-item {
+  font-family: sans-serif; }
+
+.navbar {
+  background-color: black !important;
+  padding: 0;
+  margin: 0; }
+
+.nav-link {
+  font-size: 18px;
+  color: #CDCDCD !important; }
+
+.navbar-toggler {
+  color: #085394 !important;
+  background-color: #085394 !important; }
+
+.nav-link:hover {
+  color: #CDCDCD !important;
+  background-color: #085394 !important; }
+
+@media (min-width: 992px) {
+  .nav-link {
+    border-right: 1px solid #085394;
+    font-size: 15px; } }
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-bottom: 5px; } }
+
+@media (min-width: 1280px) {
+  .williams-navbar .container {
+    max-width: 100% !important; } }
+
+main {
+  background-color: black !important; }
+
+.carousel-item {
+  width: 100%; }
+
+.williams-main__carousel--img {
+  width: 100% !important;
+  height: 85vh;
+  object-fit: cover;
+  filter: grayscale(0.25%); }
+
+.carousel-caption {
+  text-align: left;
+  bottom: 35px;
+  font-size: 18px;
+  opacity: 0.8; }
+  .carousel-caption a {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px !important;
+    color: white;
+    border: 1px solid;
+    padding: 5px; }
+  .carousel-caption a:hover {
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD; }
+
+@media (max-width: 560px) {
+  .carousel-caption p {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .williams-main__carousel--img {
+    height: 52vh; } }
+
+@media (max-width: 450px) {
+  .carousel-caption h4 {
+    font-size: 21px !important; }
+  .carousel-caption h3 {
+    font-size: 25px !important; } }
+
+@media (max-width: 390px) {
+  .carousel-caption h3 {
+    font-size: 20px !important; } }
+
+.williams-main__carousel--img:hover {
+  transition: 1.5s;
+  transform: scale(1.05);
+  filter: grayscale(60%); }
+
+.williams-car {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: whitesmoke;
+  background-color: black; }
+
+.btn,
+.btn-primary {
+  background-color: #085394; }
+
+.williams-partners,
+.card {
+  background-color: black; }
+
+.card-body {
+  background-color: black;
+  color: whitesmoke; }
+
+.card text-center {
+  border: none !important; }
+
+.williams-partners h1,
+.williams-partners a {
+  color: #CDCDCD !important; }
+
+.count {
+  background-image: url("../images/count.jpg");
+  background-size: cover;
+  height: 400px; }
+  .count h5 {
+    color: #CDCDCD;
+    text-align: center; }
+  .count img {
+    margin: auto;
+    margin-top: 180px !important;
+    opacity: 0.9;
+    width: 100%;
+    height: 100px; }
+
+@media (min-width: 670px) {
+  .count {
+    height: 600px; }
+    .count img {
+      width: 50%; } }
+
+.williams-drivers {
+  margin-bottom: 30px;
+  margin-top: 100px; }
+
+#driver1 {
+  background-image: url("../images/driver1.jpg");
+  background-size: cover;
+  height: 300px;
+  color: whitesmoke; }
+  #driver1 p,
+  #driver1 h5 {
+    margin-left: 10px; }
+
+#driver2 {
+  background-image: url("../images/driver2.jpg");
+  background-size: cover;
+  height: 300px;
+  color: whitesmoke; }
+  #driver2 p,
+  #driver2 h5 {
+    margin-left: 10px; }
+
+@media (max-width: 500px) {
+  #driver1 {
+    margin-bottom: 50px; } }
+
+footer {
+  background-color: black;
+  color: white; }
+
+#williams-footer h6 {
+  margin-top: 100px;
+  text-align: left;
+  font-size: 15px; }
+
+#williams-footer__social {
+  margin-top: 100px; }
+
+#williams-copyright {
+  text-align: center;
+  padding: 50px;
+  margin-top: 20px; }
+  #williams-copyright h6 {
+    text-align: center;
+    font-size: 0.7em; }
+
+@media (max-width: 370px) {
+  #williams-footer .container #rights {
+    text-align: center;
+    font-size: 12px; } }
+
+@media (min-width: 371px) and (max-width: 767px) {
+  #williams-footer .container #rights {
+    text-align: center;
+    font-size: 15px; } }
+
+.williams-form_contact {
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 100px;
+  color: whitesmoke; }
+  .williams-form_contact input,
+  .williams-form_contact textarea {
+    max-width: 1000px; }
+  .williams-form_contact button {
+    border-radius: 5px;
+    background-color: #085394;
+    color: white;
+    width: 100px; }
+
+h1 {
+  font-size: 30px;
+  margin-top: 25px;
+  color: #CDCDCD;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.williams-car-section {
+  margin-top: 100px; }
+  .williams-car-section .williams-car-section__portada h6 {
+    color: whitesmoke;
+    font-size: 25px !important;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .williams-car-section .williams-car-section__portada .williams-car-section__portada-img img {
+    width: 100vw; }
+
+@media (max-width: 580px) {
+  .williams-car-section .williams-car-section__portada h6 {
+    font-size: 14px !important;
+    padding: 10px; } }
+
+@media (min-width: 581px) and (max-width: 780px) {
+  .williams-car-section .williams-car-section__portada h6 {
+    font-size: 18px !important;
+    padding: 10px; } }
+
+.williams-car-section__spects {
+  margin-top: 50px; }
+  .williams-car-section__spects h2 {
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center; }
+  .williams-car-section__spects h6 {
+    color: #CDCDCD;
+    font-size: 22px; }
+
+.williams-car-section__dimension {
+  margin-top: 100px; }
+  .williams-car-section__dimension h1 {
+    margin-bottom: 50px; }
+  .williams-car-section__dimension h6 {
+    text-align: center;
+    color: gray;
+    font-size: 1.25rem; }
+  .williams-car-section__dimension p {
+    color: gray; }
+  .williams-car-section__dimension .container h6, .williams-car-section__dimension .container p {
+    text-align: center; }
+  .williams-car-section__dimension .container h6 {
+    color: #085394; }
+
+.williams-car-section__photo img {
+  object-fit: cover;
+  width: 100vw; }
+
+.williams-car-section__photo:hover img {
+  transition: 1.5s;
+  transform: scale(1.02); }
+
+.williams-car-section__engine .container-fluid h6 {
+  margin-top: 50px;
+  text-align: center;
+  color: gray; }
+
+.williams-car-section__engine .container-fluid h1 {
+  text-align: center; }
+
+.williams-car-section__engine .container-fluid img {
+  object-fit: contain;
+  margin-top: 20px;
+  width: 33vw; }
+
+.williams-car-section__carousel {
+  margin-top: 100px; }
+  .williams-car-section__carousel h1 {
+    color: gray; }
+
+@media (max-width: 670px) {
+  .williams-car-section .williams-car-section__portada h6 {
+    font-size: 15px; } }
+
+@media (max-width: 400px) {
+  .williams-car-section .williams-car-section__portada h6 {
+    font-size: 11px; } }
+
+@media (max-width: 400px) {
+  .williams-car-section__spects {
+    margin-top: 50px; }
+    .williams-car-section__spects h2 {
+      font-size: 20px;
+      color: whitesmoke; }
+    .williams-car-section__spects h6 {
+      color: #CDCDCD;
+      font-size: 12px; } }
+
+@media (max-width: 670px) {
+  .williams-car-section__spects {
+    margin-top: 50px; }
+    .williams-car-section__spects h2 {
+      font-size: 20px;
+      color: whitesmoke; }
+    .williams-car-section__spects h6 {
+      color: #CDCDCD;
+      font-size: 12px; } }
+
+.williams-history-section {
+  margin-top: 100px; }
+  .williams-history-section img {
+    object-fit: cover;
+    width: 100vw; }
+  .williams-history-section p {
+    margin-top: 30px !important;
+    color: #CDCDCD;
+    margin: 5px; }
+
+.williams-history-section__videos {
+  margin-top: 200px; }
+
+h1 {
+  margin-bottom: 50px; }
+
+iframe {
+  width: 100% !important; }
+
+@media (max-width: 700px) {
+  .williams-history-section__videos .row {
+    margin: 0;
+    padding: 0; } }
+
+.williams-team img {
+  object-fit: cover;
+  width: 100vw; }
+
+.williams-team__founders {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  margin-top: 100px;
+  background-image: url("https://az732437.vo.msecnd.net/-/media/williamsf1/racing/about/our-people/backgrounds/founders.ashx?revision=968f27ca-8798-4700-ba34-11ae4996d4e8"); }
+
+.williams-team__drivers-photo h6 {
+  color: gray;
+  text-align: center;
+  margin-bottom: 100px; }
+
+.williams-partners {
+  margin-top: 100px; }
+  .williams-partners h3 {
+    color: gray; }
+  .williams-partners p {
+    color: white; }
+
+.williams-partners-all {
+  margin-top: 100px;
+  background-size: cover;
+  background-image: url("../images/background_partners.jpeg");
+  height: 90vh; }
+  .williams-partners-all .img-fluid {
+    height: 110px;
+    width: 180px;
+    filter: grayscale(0.2);
+    opacity: 0.7;
+    margin-bottom: 15px; }
+
+@media (max-width: 418px) {
+  .williams-partners-all {
+    height: 90%; }
+    .williams-partners-all .img-fluid {
+      height: 50px;
+      width: 130px; } }

@@ -1,0 +1,83 @@
+@import "colors.scss";
+
+footer {
+    background-color: $color3;
+    color: $color4;
+    
+}
+
+#williams-footer {
+   
+
+    h6{
+        
+        margin-top: 100px;
+        text-align: left;
+        font-size: 15px;
+        
+        
+
+    }
+
+    
+}
+
+#williams-footer__social{
+
+    margin-top: 100px;
+}
+
+
+
+#williams-copyright{
+
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+
+        h6{
+            text-align: center;
+            font-size: 0.7em;
+        }
+}
+
+
+@media(max-width:370px){
+
+    #williams-footer{
+        .container{
+
+            #rights{
+                text-align: center;
+                font-size: 12px;
+                
+            }
+
+        }
+
+        
+          
+    }
+
+}
+
+@media (min-width:371px)and(max-width:767px){
+
+    #williams-footer{
+        .container{
+
+            #rights{
+                text-align: center;
+                font-size: 15px;
+                
+            }
+
+        }
+
+        
+          
+    }
+
+}
+
+

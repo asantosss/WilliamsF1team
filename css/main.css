@@ -1,0 +1,121 @@
+main {
+  background-color: black !important; }
+
+.carousel-item {
+  width: 100%; }
+
+.williams-main__carousel--img {
+  width: 100% !important;
+  height: 85vh;
+  object-fit: cover;
+  filter: grayscale(0.25%); }
+
+.carousel-caption {
+  text-align: left;
+  bottom: 35px;
+  font-size: 18px;
+  opacity: 0.8; }
+  .carousel-caption a {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px !important;
+    color: white;
+    border: 1px solid;
+    padding: 5px; }
+  .carousel-caption a:hover {
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD; }
+
+@media (max-width: 560px) {
+  .carousel-caption p {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .williams-main__carousel--img {
+    height: 52vh; } }
+
+@media (max-width: 450px) {
+  .carousel-caption h4 {
+    font-size: 21px !important; }
+  .carousel-caption h3 {
+    font-size: 25px !important; } }
+
+@media (max-width: 390px) {
+  .carousel-caption h3 {
+    font-size: 20px !important; } }
+
+.williams-main__carousel--img:hover {
+  transition: 1.5s;
+  transform: scale(1.05);
+  filter: grayscale(60%); }
+
+.williams-car {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: whitesmoke;
+  background-color: black; }
+
+.btn,
+.btn-primary {
+  background-color: #085394; }
+
+.williams-partners,
+.card {
+  background-color: black; }
+
+.card-body {
+  background-color: black;
+  color: whitesmoke; }
+
+.card text-center {
+  border: none !important; }
+
+.williams-partners h1,
+.williams-partners a {
+  color: #CDCDCD !important; }
+
+.count {
+  background-image: url("../images/count.jpg");
+  background-size: cover;
+  height: 400px; }
+  .count h5 {
+    color: #CDCDCD;
+    text-align: center; }
+  .count img {
+    margin: auto;
+    margin-top: 180px !important;
+    opacity: 0.9;
+    width: 100%;
+    height: 100px; }
+
+@media (min-width: 670px) {
+  .count {
+    height: 600px; }
+    .count img {
+      width: 50%; } }
+
+.williams-drivers {
+  margin-bottom: 30px;
+  margin-top: 100px; }
+
+#driver1 {
+  background-image: url("../images/driver1.jpg");
+  background-size: cover;
+  height: 300px;
+  color: whitesmoke; }
+  #driver1 p,
+  #driver1 h5 {
+    margin-left: 10px; }
+
+#driver2 {
+  background-image: url("../images/driver2.jpg");
+  background-size: cover;
+  height: 300px;
+  color: whitesmoke; }
+  #driver2 p,
+  #driver2 h5 {
+    margin-left: 10px; }
+
+@media (max-width: 500px) {
+  #driver1 {
+    margin-bottom: 50px; } }

@@ -1,0 +1,196 @@
+@import "colors.scss";
+
+.williams-car-section{
+    margin-top: 100px;
+
+    .williams-car-section__portada{
+        h6{
+            color: $color2;
+            font-size: 25px!important;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .williams-car-section__portada-img{
+            img{
+                width: 100vw;
+            }
+        }
+    }
+}
+
+@media(max-width:580px){
+    .williams-car-section{
+        .williams-car-section__portada{
+            h6{
+                font-size: 14px!important;
+                padding:10px;
+            }
+        }
+    }
+}
+
+@media(min-width:581px) and (max-width:780px){
+    .williams-car-section{
+        .williams-car-section__portada{
+            h6{
+                font-size: 18px!important;
+                padding:10px;
+            }
+        }
+    }
+}
+
+
+.williams-car-section__spects{
+    margin-top: 50px;
+
+    h2 {
+        font-size: 50px;
+        color:$color2;
+        text-align: center;
+    }   
+    h6{
+        color: $color1;
+        font-size: 22px;
+
+    }
+
+}
+
+.williams-car-section__dimension{
+    
+
+    margin-top: 100px;
+    h1{
+        margin-bottom: 50px;
+    }
+
+    h6{
+        text-align: center;
+        color: $color7;
+        font-size: 1.25rem;
+
+    }
+    p{
+        color: $color7;
+    }
+
+    .container{
+
+        h6,p{
+            text-align: center;
+        }
+        h6{
+            color:$color5;
+        }
+    }
+}
+
+
+.williams-car-section__photo{
+    img{
+        object-fit: cover;
+        width:100vw;
+    }
+}
+
+.williams-car-section__photo:hover{
+
+    img{
+         transition: 1.5s;
+        transform: scale(1.02);
+        
+
+    }
+}
+
+.williams-car-section__engine{
+    .container-fluid{
+        h6{
+            margin-top: 50px;
+            text-align: center;
+            color: $color7;
+        }
+        h1{
+            text-align: center;
+        }
+    
+        img{
+            object-fit:contain;
+
+            margin-top: 20px;
+            width: 33vw;
+
+        }
+    }
+}
+
+.williams-car-section__carousel{
+    h1{
+        color: $color7;
+    }
+
+    margin-top: 100px;
+}
+
+
+
+@media(max-width:670px){
+    .williams-car-section{
+
+        .williams-car-section__portada{
+            h6{
+                
+                font-size: 15px;
+                
+            }
+        }
+
+}
+}
+
+@media(max-width:400px){
+    .williams-car-section{
+
+        .williams-car-section__portada{
+            h6{
+                
+                font-size: 11px;
+                
+            }
+        }
+
+}
+}
+
+@media(max-width:400px){
+
+    .williams-car-section__spects{
+        margin-top: 50px;
+    
+        h2 {
+            font-size: 20px;
+            color:$color2;
+        }
+        h6{
+            color: $color1;
+            font-size: 12px;
+        }
+    }
+}
+@media(max-width:670px){
+
+    .williams-car-section__spects{
+        margin-top: 50px;
+    
+        h2 {
+            font-size: 20px;
+            color:$color2;
+        }
+        h6{
+            color: $color1;
+            font-size: 12px;
+        }
+    }
+}

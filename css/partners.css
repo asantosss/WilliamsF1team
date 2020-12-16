@@ -1,0 +1,25 @@
+.williams-partners {
+  margin-top: 100px; }
+  .williams-partners h3 {
+    color: gray; }
+  .williams-partners p {
+    color: white; }
+
+.williams-partners-all {
+  margin-top: 100px;
+  background-size: cover;
+  background-image: url("../images/background_partners.jpeg");
+  height: 90vh; }
+  .williams-partners-all .img-fluid {
+    height: 110px;
+    width: 180px;
+    filter: grayscale(0.2);
+    opacity: 0.7;
+    margin-bottom: 15px; }
+
+@media (max-width: 418px) {
+  .williams-partners-all {
+    height: 90%; }
+    .williams-partners-all .img-fluid {
+      height: 50px;
+      width: 130px; } }
