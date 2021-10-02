@@ -124,9 +124,11 @@ main {
   background-image: url("../images/count.jpg");
   background-size: cover;
   height: 400px; }
-  .count h5 {
+  .count, h1 p {
     color: #CDCDCD;
-    text-align: center; }
+    text-align: center !important;
+    font-size: 15px;
+  }
   .count img {
     margin: auto;
     margin-top: 180px !important;
@@ -139,6 +141,12 @@ main {
     height: 600px; }
     .count img {
       width: 50%; } }
+
+      @media (max-width: 450px) {
+        .count,p {
+          font-size: 8px; }
+          .count img {
+            width: 50%; } }
 
 .williams-drivers {
   margin-bottom: 30px;
@@ -382,3 +390,16 @@ iframe {
     .williams-partners-all .img-fluid {
       height: 50px;
       width: 130px; } }
+
+
+      /* // estilos contador  */
+
+
+
+
+
+
+
+
+
+/* // fin estilos contador  */
